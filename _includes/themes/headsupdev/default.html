@@ -1,0 +1,120 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>{{ page.title }}</title>
+
+    <meta name="generator" content="Rectang.com XSM - Managing the web with style - http://rectang.com/Software/XSM/" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="headsup agile java" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="http://headsupdev.com/_theme/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="http://headsupdev.com/_theme/1140.css" type="text/css" media="screen" />
+	
+    <link rel="stylesheet" type="text/css" href="http://headsupdev.com/_theme/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://headsupdev.com/_theme/layout.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/assets/themes/headsupdev/css/open.css" media="screen" />
+	
+
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="http://headsupdev.com/_theme/css3-mediaqueries.js"></script>
+
+    <style type="text/css">
+h1 {
+	font-size: 28pt;
+}
+    </style>
+	
+	    <link rel="icon" href="http://headsupdev.com/favicon.ico" type="image/ico" />
+	    <link rel="shortcut icon" href="http://headsupdev.com/favicon.ico" type="image/ico" />
+</head>
+
+  <body><a name="top"></a>
+	<div class="container header">
+                  		<div class="row">
+						    <a href="http://github.com/headsupdev" class="hiddenonmobile"><img style="position: absolute; top: 0; right: 0; border: 0;" src="{{ ASSET_PATH }}/images/forkme.png" alt="Fork me on GitHub"></a>
+			<div class="twelve last">
+				<div class="headertitle"></div>
+<!--
+				<div class="headerlogo">
+<a href="/agile" class="headeragile"><img src="http://headsupdev.com/img/_images/lozenge_logo.png" /></a>
+				</div>
+-->
+					<ul class="headernav">
+						<li><a href="/">home</a></li>
+						<li><a href="/archive.html">archive</a></li>
+						<li><a href="/pages.html">pages</a></li>
+						<li><a href="/categories.html">categories</a></li>
+						<li><a href="/tags.html">tags</a></li>
+					</ul>
+<hr />
+			</div>
+		</div>
+	</div>
+
+	<div class="container content">
+		<div class="row rowbg">
+			<div class="twocol nav">
+			</div>
+			<div class="eightcol inner">
+                                      	<!-- <h1 class="xsm_meta_title">
+										    {{ page.title }}
+</h1> -->
+
+{{ content }}
+
+			</div>
+			<div class="twocol last">
+			</div>
+		</div>
+	</div>
+
+	<div class="container footer">
+		<div class="row">
+			<div class="twocol">
+			</div>
+			<div class="eightcol">
+				<div>
+					<ul>
+						<li><a href="http://headsupdev.com/contact">Contact Us</a></li>
+						<li><a href="http://headsupdev.com/agile/docs">Documentation</a></li>
+                        <li><a href="http://headsupdev.com/agile/">Agile Pro</a></li>
+					</ul>
+				</div>
+<div id="footercopy">
+<a href="http://headsupdev.com/"><img src="http://headsupdev.com/img/_images/footerlogo.png" /></a>
+<p>Copyright &copy; 2010 - 2012 Heads Up Development Ltd and other contributors.<br />
+"Heads Up Development" and "HeadsUp" are<br />registered trademarks of Heads Up Development Ltd.<br />
+Powered by <a style="font-size: 9pt" href="https://github.com/mojombo/jekyll">Jekyll</a>.
+</p>
+</div>
+			</div>
+			<div class="twocol last">
+				<a href="#top" class="gototop">Return to top</a>
+			</div>
+		</div>
+	</div>
+
+<script>
+	(function(d, s) {
+		var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.src = url; js.id = id;
+		fjs.parentNode.insertBefore(js, fjs);
+		};
+	load('//platform.twitter.com/widgets.js', 'tweetjs');
+	// load('https://apis.google.com/js/plusone.js', 'gplus1js'); // Checkout http://j.mp/ApDgMr for usage html for this is <div class="g-plusone" data-size="medium"></div>
+	// load('//connect.facebook.net/en_US/all.js#xfbml=1', 'fbjssdk'); // Checkout http://j.mp/wZw2xR for using open graph protorol html for this is <div class="fb-like" data-href="{{ page.url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="verdana"></div>
+	}(document, 'script'));
+</script>
+
+  {% include JB/analytics %}
+  </body>
+</html>
