@@ -6,8 +6,8 @@
     <atom:link href="http://headsupdev.github.com/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Blog</description>
     <language>en-gb</language>
-    <pubDate>Wed, 13 Jun 2012 22:11:16 +0100</pubDate>
-    <lastBuildDate>Wed, 13 Jun 2012 22:11:16 +0100</lastBuildDate>
+    <pubDate>Wed, 13 Jun 2012 22:38:14 +0100</pubDate>
+    <lastBuildDate>Wed, 13 Jun 2012 22:38:14 +0100</lastBuildDate>
 
     
     <item>
@@ -16,11 +16,22 @@
       <pubDate>Wed, 06 Jun 2012 00:00:00 +0100</pubDate>
       <author>andy@andywilliams.me (Andrew Williams)</author>
       <guid>http://headsupdev.github.com/_releases/2012/06/06/2.0-alpha-3</guid>
-      <description>Our first open source binary release.
+      <description>HeadsUp Agile's first release brings all the tools of Software Engineering and Project Management to all your team members in one easy to use web based application.
+The HeadsUp Agile system runs on any Unix OS and monitors your source control for code and project metadata.
+Combining change monitoring, task tracking and progress analytics your development progress will be clearer and faster than ever before
 
-Added generated API documentation after each commit!
+Features include:
 
-Fixed various bugs since initial open sourcing.
+* Source control systems SVN, Git and Mercurial
+* Hierarchical project metadata from Maven, Ant + Ivy, Xcode and Eclipse
+* Continuous Integration for Maven, XCode, Eclipse, Ant and command line
+* Manage Documents, Issues, Milestones and Builds
+* Burndown graphs, project and developer activity charts
+* Browse and download source files and deployed artifacts
+* Project history and cross-summary views
+* Context highlighted search for all stored data
+
+Check out the [project page](http://headsupdev.github.com/agile) for more information.
 
 </description>
 
