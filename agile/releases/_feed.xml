@@ -1,0 +1,29 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HeadsUpDev Open</title>
+    <link>{{ site.production_url }}</link>
+    <atom:link href="{{ site.production_url }}/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
+    <description>HeadsUp Development Open Source Blog</description>
+    <language>en-gb</language>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+
+    {% for release in site.releases %}
+    <item>
+      <title>{{ release.title }}</title>
+      <link>http://headsupdev.github.com{{ release.url }}</link>
+      <pubDate>{{ release.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <author>andy@andywilliams.me (Andrew Williams)</author>
+      <guid>http://headsupdev.github.com{{ release.id }}</guid>
+      <description>{{ release.content | xml_escape }}</description>
+
+      <enclosure url="{{ release.link }}" length="{{ release.size }}" type="application/octet-stream"/>
+    </item>
+    {% endfor %}
+
+  </channel> 
+</rss>

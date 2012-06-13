@@ -1,29 +1,32 @@
----
-layout: nil
----
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HeadsUpDev Open</title>
-    <link>{{ site.production_url }}</link>
-    <atom:link href="{{ site.production_url }}/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://headsupdev.github.com</link>
+    <atom:link href="http://headsupdev.github.com/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Blog</description>
     <language>en-gb</language>
-    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    <pubDate>Wed, 13 Jun 2012 22:11:16 +0100</pubDate>
+    <lastBuildDate>Wed, 13 Jun 2012 22:11:16 +0100</lastBuildDate>
 
-    {% for release in site.releases %}
+    
     <item>
-      <title>{{ release.title }}</title>
-      <link>http://headsupdev.github.com{{ release.url }}</link>
-      <pubDate>{{ release.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <title>2.0-alpha-3 our first open source release</title>
+      <link>http://headsupdev.github.com/_releases/2012/06/06/2.0-alpha-3</link>
+      <pubDate>Wed, 06 Jun 2012 00:00:00 +0100</pubDate>
       <author>andy@andywilliams.me (Andrew Williams)</author>
-      <guid>http://headsupdev.github.com{{ release.id }}</guid>
-      <description>{{ release.content | xml_escape }}</description>
+      <guid>http://headsupdev.github.com/_releases/2012/06/06/2.0-alpha-3</guid>
+      <description>Our first open source binary release.
 
-      <enclosure url="{{ release.link }}" length="{{ release.size }}" type="application/octet-stream"/>
+Added generated API documentation after each commit!
+
+Fixed various bugs since initial open sourcing.
+
+</description>
+
+      <enclosure url="https://github.com/downloads/headsupdev/agile/agile-2.0-alpha-3.tar.gz" length="22259989" type="application/octet-stream"/>
     </item>
-    {% endfor %}
+    
 
   </channel> 
 </rss>
