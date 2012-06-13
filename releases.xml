@@ -22,7 +22,7 @@ layout: nil
       <guid>http://headsupdev.github.com{{ release.id }}</guid>
       <description>{{ release.content | xml_escape }}</description>
 
-      <enclosure url="{{ site.production_url }}{{release.file}}" length="0" type="application/octet-stream"/>
+      <enclosure url="{{ release.link }}" length="{{ release.size }}" type="application/octet-stream"/>
     </item>
     {% endfor %}
 

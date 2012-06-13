@@ -11,42 +11,33 @@ module Jekyll
     # Returns nothing.
     def read_releases(site, dir = '_releases')
       base = File.join(site.source, dir, '_posts')
-      $stdout.puts base
       return unless File.exists?(base)
       entries = Dir.chdir(base) { Dir['**/*'] }
 
       # first pass processes, but does not yet render post content
       entries.each do |f|
-        $stdout.puts f
-        $stdout.puts Post
         begin
           post = Post.new(site, site.source, dir, f)
         rescue => e
-          $stdout.puts $!.backtrace
+          #$stdout.puts $!.backtrace
           $stdout.puts "#{e.message}"
         end
 
-        $stdout.puts post
-        site.releases << post
+        site.config['releases'] << post
       end
-      $stdout.puts "done"
-      $stdout.puts site.releases
 
-      site.releases.sort!
+      site.config['releases'].sort!
 
       # limit the posts if :limit_posts option is set
-      if limit_posts
-        limit = site.releases.length < limit_posts ? site.posts.length : limit_posts
-        site.releases = site.releases[-limit, limit]
-      end
+#      if limit_posts
+#        limit = site.config['releases'].length < limit_posts ? sites.config['releases'].length : limit_posts
+#        site.config['releases'] = site.config['releases'][-limit, limit]
+#      end
     end
 
     def generate(site)
-      #site.releases = []
+      site.config['releases'] = []
       self.read_releases(site)
-
-      self.read_directories
-      $stdout.puts self.releases
     end
   end
 end
