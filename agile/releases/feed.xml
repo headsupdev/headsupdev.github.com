@@ -16,7 +16,7 @@
       <pubDate>Wed, 06 Jun 2012 00:00:00 +0100</pubDate>
       <author>andy@andywilliams.me (Andrew Williams)</author>
       <guid>http://headsupdev.github.com/_releases/2012/06/06/2.0-alpha-3</guid>
-      <description>
+      <description><![CDATA[
 
 <p>HeadsUp Agile's first open source release brings all the tools of Software Engineering and Project Management to all your team members in one easy to use web based application.
 The HeadsUp Agile system runs on any Unix OS and monitors your source control for code and project metadata.
@@ -37,7 +37,7 @@ Combining change monitoring, task tracking and progress analytics your developme
 
 <p>Check out the <a href="http://headsupdev.github.com/agile">project page</a> for more information.</p>
 
-</description>
+]]></description>
 
       <enclosure url="http://headsupdev.github.com/agile/releases/agile-2.0-alpha-3.tar.gz" length="22259989" type="application/octet-stream"/>
     </item>
