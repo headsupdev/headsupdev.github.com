@@ -6,8 +6,8 @@
     <atom:link href="http://headsupdev.github.com/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Blog</description>
     <language>en-gb</language>
-    <pubDate>Wed, 13 Jun 2012 22:38:14 +0100</pubDate>
-    <lastBuildDate>Wed, 13 Jun 2012 22:38:14 +0100</lastBuildDate>
+    <pubDate>Sun, 17 Jun 2012 15:20:10 +0100</pubDate>
+    <lastBuildDate>Sun, 17 Jun 2012 15:20:10 +0100</lastBuildDate>
 
     
     <item>
@@ -16,30 +16,43 @@
       <pubDate>Wed, 06 Jun 2012 00:00:00 +0100</pubDate>
       <author>andy@andywilliams.me (Andrew Williams)</author>
       <guid>http://headsupdev.github.com/_releases/2012/06/06/2.0-alpha-3</guid>
-      <description><![CDATA[
-
-<p>HeadsUp Agile's first open source release brings all the tools of Software Engineering and Project Management to all your team members in one easy to use web based application.
+      <description>&lt;p&gt;HeadsUp Agile's first open source release brings all the tools of Software Engineering and Project Management to all your team members in one easy to use web based application.
 The HeadsUp Agile system runs on any Unix OS and monitors your source control for code and project metadata.
-Combining change monitoring, task tracking and progress analytics your development progress will be clearer and faster than ever before</p>
+Combining change monitoring, task tracking and progress analytics your development progress will be clearer and faster than ever before&lt;/p&gt;
 
-<p>Features include:</p>
+&lt;p&gt;Features include:&lt;/p&gt;
 
-<ul>
-<li>Source control systems SVN, Git and Mercurial</li>
-<li>Hierarchical project metadata from Maven, Ant + Ivy, Xcode and Eclipse</li>
-<li>Continuous Integration for Maven, XCode, Eclipse, Ant and command line</li>
-<li>Manage Documents, Issues, Milestones and Builds</li>
-<li>Burndown graphs, project and developer activity charts</li>
-<li>Browse and download source files and deployed artifacts</li>
-<li>Project history and cross-summary views</li>
-<li>Context highlighted search for all stored data</li>
-</ul>
+&lt;ul&gt;
+&lt;li&gt;Source control systems SVN, Git and Mercurial&lt;/li&gt;
+&lt;li&gt;Hierarchical project metadata from Maven, Ant + Ivy, Xcode and Eclipse&lt;/li&gt;
+&lt;li&gt;Continuous Integration for Maven, XCode, Eclipse, Ant and command line&lt;/li&gt;
+&lt;li&gt;Manage Documents, Issues, Milestones and Builds&lt;/li&gt;
+&lt;li&gt;Burndown graphs, project and developer activity charts&lt;/li&gt;
+&lt;li&gt;Browse and download source files and deployed artifacts&lt;/li&gt;
+&lt;li&gt;Project history and cross-summary views&lt;/li&gt;
+&lt;li&gt;Context highlighted search for all stored data&lt;/li&gt;
+&lt;/ul&gt;
 
-<p>Check out the <a href="http://headsupdev.github.com/agile">project page</a> for more information.</p>
+&lt;p&gt;Check out the &lt;a href=&quot;http://headsupdev.github.com/agile&quot;&gt;project page&lt;/a&gt; for more information.&lt;/p&gt;
+></description>
 
-]]></description>
+      <enclosure url="http://github.com/downloads/headsupdev/agile/agile-2.0-alpha-3.tar.gz" length="22259989" type="application/octet-stream"/>
+    </item>
+    
+    <item>
+      <title>2.0-alpha-4 brings windows support and preparation for beta-1</title>
+      <link>http://headsupdev.github.com/_releases/2012/06/17/2.0-alpha-4</link>
+      <pubDate>Sun, 17 Jun 2012 00:00:00 +0100</pubDate>
+      <author>andy@andywilliams.me (Andrew Williams)</author>
+      <guid>http://headsupdev.github.com/_releases/2012/06/17/2.0-alpha-4</guid>
+      <description>&lt;p&gt;2.0-alpha-4 introduces full Windows support to HeadsUp Agile.&lt;br /&gt;
+Released ahead of beta-1 for some serious testing we hope that support for Windows will prove popular&lt;/p&gt;
 
-      <enclosure url="http://headsupdev.github.com/agile/releases/agile-2.0-alpha-3.tar.gz" length="22259989" type="application/octet-stream"/>
+&lt;p&gt;Also in this release are changes that will help the migration to beta-1 using GitHub's infrastructure.&lt;/p&gt;
+
+></description>
+
+      <enclosure url="http://github.com/downloads/headsupdev/agile/agile-2.0-alpha-4.tar.gz" length="22261020" type="application/octet-stream"/>
     </item>
     
 
