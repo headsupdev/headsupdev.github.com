@@ -6,8 +6,8 @@
     <atom:link href="http://headsupdev.github.com/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Blog</description>
     <language>en-gb</language>
-    <pubDate>Sun, 17 Jun 2012 15:42:52 +0100</pubDate>
-    <lastBuildDate>Sun, 17 Jun 2012 15:42:52 +0100</lastBuildDate>
+    <pubDate>Sun, 17 Jun 2012 16:22:56 +0100</pubDate>
+    <lastBuildDate>Sun, 17 Jun 2012 16:22:56 +0100</lastBuildDate>
 
     
     <item>
@@ -36,7 +36,7 @@ Combining change monitoring, task tracking and progress analytics your developme
 &lt;p&gt;Check out the &lt;a href=&quot;http://headsupdev.github.com/agile&quot;&gt;project page&lt;/a&gt; for more information.&lt;/p&gt;
 </description>
 
-      <enclosure url="http://github.com/downloads/headsupdev/agile/agile-2.0-alpha-3.tar.gz" length="22259989" type="application/octet-stream"/>
+      <enclosure url="http://headsupdev.github.com/agile/releases/agile-2.0-alpha-3.tar.gz" length="22259989" type="application/octet-stream"/>
     </item>
     
     <item>
@@ -52,7 +52,7 @@ Released ahead of beta-1 for some serious testing we hope that support for Windo
 
 </description>
 
-      <enclosure url="http://github.com/downloads/headsupdev/agile/agile-2.0-alpha-4.tar.gz" length="22261020" type="application/octet-stream"/>
+      <enclosure url="http://headsupdev.github.com/agile/releases/agile-2.0-alpha-4.tar.gz" length="22261020" type="application/octet-stream"/>
     </item>
     
 
