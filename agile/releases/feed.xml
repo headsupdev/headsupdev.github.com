@@ -6,8 +6,8 @@
     <atom:link href="http://headsupdev.github.com/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Blog</description>
     <language>en-gb</language>
-    <pubDate>Sun, 17 Jun 2012 16:22:56 +0100</pubDate>
-    <lastBuildDate>Sun, 17 Jun 2012 16:22:56 +0100</lastBuildDate>
+    <pubDate>Tue, 31 Jul 2012 23:14:05 +0100</pubDate>
+    <lastBuildDate>Tue, 31 Jul 2012 23:14:05 +0100</lastBuildDate>
 
     
     <item>
@@ -53,6 +53,21 @@ Released ahead of beta-1 for some serious testing we hope that support for Windo
 </description>
 
       <enclosure url="http://headsupdev.github.com/agile/releases/agile-2.0-alpha-4.tar.gz" length="22261020" type="application/octet-stream"/>
+    </item>
+    
+    <item>
+      <title>2.0-alpha-5 bug fixes and improved stability</title>
+      <link>http://headsupdev.github.com/_releases/2012/07/31/2.0-alpha-5</link>
+      <pubDate>Tue, 31 Jul 2012 00:00:00 +0100</pubDate>
+      <author>andy@andywilliams.me (Andrew Williams)</author>
+      <guid>http://headsupdev.github.com/_releases/2012/07/31/2.0-alpha-5</guid>
+      <description>&lt;p&gt;2.0-alpha-5 is an interim bug fix release as we prepare beta-1.&lt;br /&gt;
+Improvements include better handling of secure mail servers, strict IRC servers and also improve stability of the overall interface.&lt;/p&gt;
+
+&lt;p&gt;We hope to have beta-1 available soon but this should improve your HeadsUp Agile installation in the meantime!&lt;/p&gt;
+</description>
+
+      <enclosure url="https://github.com/downloads/headsupdev/agile/agile-2.0-alpha-5.tar.gz" length="22262770" type="application/octet-stream"/>
     </item>
     
 
