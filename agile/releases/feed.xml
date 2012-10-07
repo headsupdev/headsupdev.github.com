@@ -6,8 +6,8 @@
     <atom:link href="http://headsupdev.github.com/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Blog</description>
     <language>en-gb</language>
-    <pubDate>Tue, 31 Jul 2012 23:14:05 +0100</pubDate>
-    <lastBuildDate>Tue, 31 Jul 2012 23:14:05 +0100</lastBuildDate>
+    <pubDate>Sun, 07 Oct 2012 15:47:42 +0100</pubDate>
+    <lastBuildDate>Sun, 07 Oct 2012 15:47:42 +0100</lastBuildDate>
 
     
     <item>
@@ -68,6 +68,23 @@ Improvements include better handling of secure mail servers, strict IRC servers 
 </description>
 
       <enclosure url="https://github.com/downloads/headsupdev/agile/agile-2.0-alpha-5.tar.gz" length="22262770" type="application/octet-stream"/>
+    </item>
+    
+    <item>
+      <title>2.0-alpha-6 addition of static analysis for XCode projects</title>
+      <link>http://headsupdev.github.com/_releases/2012/10/07/2.0-alpha-6</link>
+      <pubDate>Sun, 07 Oct 2012 00:00:00 +0100</pubDate>
+      <author>andy@andywilliams.me (Andrew Williams)</author>
+      <guid>http://headsupdev.github.com/_releases/2012/10/07/2.0-alpha-6</guid>
+      <description>&lt;p&gt;2.0-alpha-6 adds static code analysis for XCode projects kindly contributed by Adam Boardman&lt;/p&gt;
+
+&lt;p&gt;This is the last alpha release and should be considered a beta candidate, we do not expect
+any major changes between alpha-6 and beta-1.&lt;/p&gt;
+
+&lt;p&gt;Apologies for the delay in preparing beta-1 but it will be available very soon!&lt;/p&gt;
+</description>
+
+      <enclosure url="https://github.com/downloads/headsupdev/agile/agile-2.0-alpha-6.tar.gz" length="22262770" type="application/octet-stream"/>
     </item>
     
 
