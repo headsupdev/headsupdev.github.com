@@ -6,8 +6,8 @@
     <atom:link href="http://headsupdev.github.com/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Blog</description>
     <language>en-gb</language>
-    <pubDate>Thu, 03 Jan 2013 00:56:08 +0000</pubDate>
-    <lastBuildDate>Thu, 03 Jan 2013 00:56:08 +0000</lastBuildDate>
+    <pubDate>Thu, 03 Jan 2013 01:00:51 +0000</pubDate>
+    <lastBuildDate>Thu, 03 Jan 2013 01:00:51 +0000</lastBuildDate>
 
     
     <item>
@@ -113,12 +113,12 @@ any major changes between alpha-6 and beta-1.&lt;/p&gt;
     </item>
     
     <item>
-      <title>2.0-beta-1 bug fixes to create first beta release</title>
+      <title>2.0-beta-2 with android lint and milestone grouping</title>
       <link>http://headsupdev.github.com/_releases/2013/01/02/2.0-beta-2</link>
       <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
       <author>andy@andywilliams.me (Andrew Williams)</author>
       <guid>http://headsupdev.github.com/_releases/2013/01/02/2.0-beta-2</guid>
-      <description>&lt;p&gt;2.0-beta-2 addsa couple of often requested features that we hoped to get into the first 2.0 release.
+      <description>&lt;p&gt;2.0-beta-2 adds a couple of often requested features that we hoped to get into the first 2.0 release.
 Most notable are the inclusion of android lint reports, milestone groups and a quick-search feature for jumping to issue numbers etc.&lt;/p&gt;
 
 &lt;p&gt;A list of the other main changes are as follows:&lt;/p&gt;
