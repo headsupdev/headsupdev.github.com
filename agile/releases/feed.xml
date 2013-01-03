@@ -6,8 +6,8 @@
     <atom:link href="http://headsupdev.github.com/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Blog</description>
     <language>en-gb</language>
-    <pubDate>Wed, 14 Nov 2012 22:39:45 +0000</pubDate>
-    <lastBuildDate>Wed, 14 Nov 2012 22:39:45 +0000</lastBuildDate>
+    <pubDate>Thu, 03 Jan 2013 00:56:08 +0000</pubDate>
+    <lastBuildDate>Thu, 03 Jan 2013 00:56:08 +0000</lastBuildDate>
 
     
     <item>
@@ -110,6 +110,30 @@ any major changes between alpha-6 and beta-1.&lt;/p&gt;
 </description>
 
       <enclosure url="https://github.com/downloads/headsupdev/agile/agile-2.0-beta-1.tar.gz" length="22281209" type="application/octet-stream"/>
+    </item>
+    
+    <item>
+      <title>2.0-beta-1 bug fixes to create first beta release</title>
+      <link>http://headsupdev.github.com/_releases/2013/01/02/2.0-beta-2</link>
+      <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
+      <author>andy@andywilliams.me (Andrew Williams)</author>
+      <guid>http://headsupdev.github.com/_releases/2013/01/02/2.0-beta-2</guid>
+      <description>&lt;p&gt;2.0-beta-2 addsa couple of often requested features that we hoped to get into the first 2.0 release.
+Most notable are the inclusion of android lint reports, milestone groups and a quick-search feature for jumping to issue numbers etc.&lt;/p&gt;
+
+&lt;p&gt;A list of the other main changes are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add inline setting of milestone and assignee in issue lists&lt;/li&gt;
+&lt;li&gt;Allow setting debug option at runtime from admin configuration&lt;/li&gt;
+&lt;li&gt;Add button to drop issues currenty assigned to you&lt;/li&gt;
+
+&lt;li&gt;Correct issues with subscriptions on addigning issues&lt;/li&gt;
+&lt;/ul&gt;
+
+
+</description>
+
+      <enclosure url="https://s3-eu-west-1.amazonaws.com/agile-releases/agile-2.0-beta-2.tar.gz" length="22363090" type="application/octet-stream"/>
     </item>
     
 
