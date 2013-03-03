@@ -6,8 +6,8 @@
     <atom:link href="http://headsupdev.github.com/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Blog</description>
     <language>en-gb</language>
-    <pubDate>Thu, 03 Jan 2013 01:00:51 +0000</pubDate>
-    <lastBuildDate>Thu, 03 Jan 2013 01:00:51 +0000</lastBuildDate>
+    <pubDate>Sun, 03 Mar 2013 13:25:11 +0000</pubDate>
+    <lastBuildDate>Sun, 03 Mar 2013 13:25:11 +0000</lastBuildDate>
 
     
     <item>
@@ -134,6 +134,37 @@ Most notable are the inclusion of android lint reports, milestone groups and a q
 </description>
 
       <enclosure url="https://s3-eu-west-1.amazonaws.com/agile-releases/agile-2.0-beta-2.tar.gz" length="22363090" type="application/octet-stream"/>
+    </item>
+    
+    <item>
+      <title>2.0-beta-3 Brings a large list of improvements to the UI and various build agents</title>
+      <link>http://headsupdev.github.com/_releases/2013/03/03/2.0-beta-3</link>
+      <pubDate>Sun, 03 Mar 2013 00:00:00 +0000</pubDate>
+      <author>andy@andywilliams.me (Andrew Williams)</author>
+      <guid>http://headsupdev.github.com/_releases/2013/03/03/2.0-beta-3</guid>
+      <description>&lt;p&gt;2.0-beta-3 brings a long list of tweaks to the UI along with great new support for extended build agents and fixes to authentication.&lt;br /&gt;
+It also deprecated the old XML feed based API and introduced a new JSON based REST API in it's place.&lt;/p&gt;
+
+&lt;p&gt;A list of the other main changes are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Support for building Xcode 4 workspaces and for loading CocoaPod dependencies&lt;/li&gt;
+&lt;li&gt;Specifying Ant tasks for build schedules&lt;/li&gt;
+&lt;li&gt;Corrected building of Android apps from Eclipse projects&lt;/li&gt;
+&lt;li&gt;Naming of build schedules and the ability to execute any configuration on demand&lt;/li&gt;
+
+&lt;li&gt;Group project menu and screens into recent / active / inactive for quicker access to your current projects&lt;/li&gt;
+&lt;li&gt;Improved UI layout on mobile devices&lt;/li&gt;
+&lt;li&gt;New JSON API to replace the deprecated XML feeds&lt;/li&gt;
+
+&lt;li&gt;Fixes to the authentication handling for artifact downloads and 'remember me' settings&lt;/li&gt;
+&lt;li&gt;Fixed issues with notification handling&lt;/li&gt;
+&lt;li&gt;Fixed issues with Eclipse builds&lt;/li&gt;
+&lt;/ul&gt;
+
+
+</description>
+
+      <enclosure url="https://s3-eu-west-1.amazonaws.com/agile-releases/agile-2.0-beta-3.tar.gz" length="22561519" type="application/octet-stream"/>
     </item>
     
 
