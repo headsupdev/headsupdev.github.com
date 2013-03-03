@@ -1,141 +1,29 @@
+---
+layout: nil
+---
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HeadsUpDev Open</title>
-    <link>http://headsupdev.github.com</link>
-    <atom:link href="http://headsupdev.github.com/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
+    <link>{{ site.production_url }}</link>
+    <atom:link href="{{ site.production_url }}/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Blog</description>
     <language>en-gb</language>
-    <pubDate>Thu, 03 Jan 2013 01:00:51 +0000</pubDate>
-    <lastBuildDate>Thu, 03 Jan 2013 01:00:51 +0000</lastBuildDate>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
 
-    
+    {% for release in site.releases %}
     <item>
-      <title>2.0-alpha-3 our first open source release</title>
-      <link>http://headsupdev.github.com/_releases/2012/06/06/2.0-alpha-3</link>
-      <pubDate>Wed, 06 Jun 2012 00:00:00 +0100</pubDate>
+      <title>{{ release.title }}</title>
+      <link>http://headsupdev.github.com{{ release.url }}</link>
+      <pubDate>{{ release.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
       <author>andy@andywilliams.me (Andrew Williams)</author>
-      <guid>http://headsupdev.github.com/_releases/2012/06/06/2.0-alpha-3</guid>
-      <description>&lt;p&gt;HeadsUp Agile's first open source release brings all the tools of Software Engineering and Project Management to all your team members in one easy to use web based application.
-The HeadsUp Agile system runs on any Unix OS and monitors your source control for code and project metadata.
-Combining change monitoring, task tracking and progress analytics your development progress will be clearer and faster than ever before&lt;/p&gt;
+      <guid>http://headsupdev.github.com{{ release.id }}</guid>
+      <description>{{ release.content | xml_escape }}</description>
 
-&lt;p&gt;Features include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Source control systems SVN, Git and Mercurial&lt;/li&gt;
-&lt;li&gt;Hierarchical project metadata from Maven, Ant + Ivy, Xcode and Eclipse&lt;/li&gt;
-&lt;li&gt;Continuous Integration for Maven, XCode, Eclipse, Ant and command line&lt;/li&gt;
-&lt;li&gt;Manage Documents, Issues, Milestones and Builds&lt;/li&gt;
-&lt;li&gt;Burndown graphs, project and developer activity charts&lt;/li&gt;
-&lt;li&gt;Browse and download source files and deployed artifacts&lt;/li&gt;
-&lt;li&gt;Project history and cross-summary views&lt;/li&gt;
-&lt;li&gt;Context highlighted search for all stored data&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://headsupdev.github.com/agile&quot;&gt;project page&lt;/a&gt; for more information.&lt;/p&gt;
-</description>
-
-      <enclosure url="http://headsupdev.github.com/agile/releases/agile-2.0-alpha-3.tar.gz" length="22259989" type="application/octet-stream"/>
+      <enclosure url="{{ release.link }}" length="{{ release.size }}" type="application/octet-stream"/>
     </item>
-    
-    <item>
-      <title>2.0-alpha-4 brings windows support and preparation for beta-1</title>
-      <link>http://headsupdev.github.com/_releases/2012/06/17/2.0-alpha-4</link>
-      <pubDate>Sun, 17 Jun 2012 00:00:00 +0100</pubDate>
-      <author>andy@andywilliams.me (Andrew Williams)</author>
-      <guid>http://headsupdev.github.com/_releases/2012/06/17/2.0-alpha-4</guid>
-      <description>&lt;p&gt;2.0-alpha-4 introduces full Windows support to HeadsUp Agile.&lt;br /&gt;
-Released ahead of beta-1 for some serious testing we hope that support for Windows will prove popular&lt;/p&gt;
-
-&lt;p&gt;Also in this release are changes that will help the migration to beta-1 using GitHub's infrastructure.&lt;/p&gt;
-
-</description>
-
-      <enclosure url="http://headsupdev.github.com/agile/releases/agile-2.0-alpha-4.tar.gz" length="22261020" type="application/octet-stream"/>
-    </item>
-    
-    <item>
-      <title>2.0-alpha-5 bug fixes and improved stability</title>
-      <link>http://headsupdev.github.com/_releases/2012/07/31/2.0-alpha-5</link>
-      <pubDate>Tue, 31 Jul 2012 00:00:00 +0100</pubDate>
-      <author>andy@andywilliams.me (Andrew Williams)</author>
-      <guid>http://headsupdev.github.com/_releases/2012/07/31/2.0-alpha-5</guid>
-      <description>&lt;p&gt;2.0-alpha-5 is an interim bug fix release as we prepare beta-1.&lt;br /&gt;
-Improvements include better handling of secure mail servers, strict IRC servers and also improve stability of the overall interface.&lt;/p&gt;
-
-&lt;p&gt;We hope to have beta-1 available soon but this should improve your HeadsUp Agile installation in the meantime!&lt;/p&gt;
-</description>
-
-      <enclosure url="https://github.com/downloads/headsupdev/agile/agile-2.0-alpha-5.tar.gz" length="22262770" type="application/octet-stream"/>
-    </item>
-    
-    <item>
-      <title>2.0-alpha-6 addition of static analysis for XCode projects</title>
-      <link>http://headsupdev.github.com/_releases/2012/10/07/2.0-alpha-6</link>
-      <pubDate>Sun, 07 Oct 2012 00:00:00 +0100</pubDate>
-      <author>andy@andywilliams.me (Andrew Williams)</author>
-      <guid>http://headsupdev.github.com/_releases/2012/10/07/2.0-alpha-6</guid>
-      <description>&lt;p&gt;2.0-alpha-6 adds static code analysis for XCode projects kindly contributed by Adam Boardman&lt;/p&gt;
-
-&lt;p&gt;This is the last alpha release and should be considered a beta candidate, we do not expect
-any major changes between alpha-6 and beta-1.&lt;/p&gt;
-
-&lt;p&gt;Apologies for the delay in preparing beta-1 but it will be available very soon!&lt;/p&gt;
-</description>
-
-      <enclosure url="https://github.com/downloads/headsupdev/agile/agile-2.0-alpha-6.tar.gz" length="22262770" type="application/octet-stream"/>
-    </item>
-    
-    <item>
-      <title>2.0-beta-1 bug fixes to create first beta release</title>
-      <link>http://headsupdev.github.com/_releases/2012/11/14/2.0-beta-1</link>
-      <pubDate>Wed, 14 Nov 2012 00:00:00 +0000</pubDate>
-      <author>andy@andywilliams.me (Andrew Williams)</author>
-      <guid>http://headsupdev.github.com/_releases/2012/11/14/2.0-beta-1</guid>
-      <description>&lt;p&gt;2.0-beta-1 adds many bug fixes and small features to create our first beata release&lt;/p&gt;
-
-&lt;p&gt;A list of the main changes are as follows:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Add footer text for email notifications&lt;/li&gt;
-&lt;li&gt;Update membership and permission screens&lt;/li&gt;
-&lt;li&gt;Better styling to burndown legends and headings&lt;/li&gt;
-&lt;li&gt;Add an hours with fraction string formatter&lt;/li&gt;
-&lt;li&gt;Show accounts their own velocity info&lt;/li&gt;
-&lt;li&gt;Various bug fixes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Please join us in a pint to celebrate the first beta release :)&lt;/p&gt;
-
-</description>
-
-      <enclosure url="https://github.com/downloads/headsupdev/agile/agile-2.0-beta-1.tar.gz" length="22281209" type="application/octet-stream"/>
-    </item>
-    
-    <item>
-      <title>2.0-beta-2 with android lint and milestone grouping</title>
-      <link>http://headsupdev.github.com/_releases/2013/01/02/2.0-beta-2</link>
-      <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
-      <author>andy@andywilliams.me (Andrew Williams)</author>
-      <guid>http://headsupdev.github.com/_releases/2013/01/02/2.0-beta-2</guid>
-      <description>&lt;p&gt;2.0-beta-2 adds a couple of often requested features that we hoped to get into the first 2.0 release.
-Most notable are the inclusion of android lint reports, milestone groups and a quick-search feature for jumping to issue numbers etc.&lt;/p&gt;
-
-&lt;p&gt;A list of the other main changes are as follows:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Add inline setting of milestone and assignee in issue lists&lt;/li&gt;
-&lt;li&gt;Allow setting debug option at runtime from admin configuration&lt;/li&gt;
-&lt;li&gt;Add button to drop issues currenty assigned to you&lt;/li&gt;
-
-&lt;li&gt;Correct issues with subscriptions on addigning issues&lt;/li&gt;
-&lt;/ul&gt;
-
-
-</description>
-
-      <enclosure url="https://s3-eu-west-1.amazonaws.com/agile-releases/agile-2.0-beta-2.tar.gz" length="22363090" type="application/octet-stream"/>
-    </item>
-    
+    {% endfor %}
 
   </channel> 
 </rss>
