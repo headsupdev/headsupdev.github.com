@@ -6,8 +6,8 @@
     <atom:link href="http://headsupdev.github.com/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Blog</description>
     <language>en-gb</language>
-    <pubDate>Sun, 03 Mar 2013 13:25:11 +0000</pubDate>
-    <lastBuildDate>Sun, 03 Mar 2013 13:25:11 +0000</lastBuildDate>
+    <pubDate>Tue, 23 Apr 2013 13:53:38 +0100</pubDate>
+    <lastBuildDate>Tue, 23 Apr 2013 13:53:38 +0100</lastBuildDate>
 
     
     <item>
@@ -165,6 +165,38 @@ It also deprecated the old XML feed based API and introduced a new JSON based RE
 </description>
 
       <enclosure url="https://s3-eu-west-1.amazonaws.com/agile-releases/agile-2.0-beta-3.tar.gz" length="22561519" type="application/octet-stream"/>
+    </item>
+    
+    <item>
+      <title>2.0-beta-4 Adds a grouped activity page and new interface filters and fixes a list of reported issues</title>
+      <link>http://headsupdev.github.com/_releases/2013/04/23/2.0-beta-4</link>
+      <pubDate>Tue, 23 Apr 2013 00:00:00 +0100</pubDate>
+      <author>andy@andywilliams.me (Andrew Williams)</author>
+      <guid>http://headsupdev.github.com/_releases/2013/04/23/2.0-beta-4</guid>
+      <description>&lt;p&gt;Building on the third beta's interface improvements 2.0-beta-4 completes the interface changes for 2.0 release by adding the requested filters and a new grouped activity page.&lt;br /&gt;
+Many bugs have also been fixed, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hide email and telephone details from anonymous views&lt;/li&gt;
+&lt;li&gt;Improve maven build ordering&lt;/li&gt;
+&lt;li&gt;Add &quot;never&quot; option to build schedules&lt;/li&gt;
+&lt;li&gt;Don't forget the project when displaying an error page&lt;/li&gt;
+
+&lt;li&gt;Fixed marked up text to render URLs as links&lt;/li&gt;
+&lt;li&gt;Fix some issues with memory constraints when updating&lt;/li&gt;
+&lt;li&gt;Fix possible crashes with the system if setup is not complete&lt;/li&gt;
+
+&lt;li&gt;Improvements to document edit styling to better match document view styles&lt;/li&gt;
+&lt;li&gt;Fix issue with hour remaining calculations and milestone exports&lt;/li&gt;
+&lt;li&gt;Issue:38 Attach comments to attachments when adding a file&lt;/li&gt;
+&lt;li&gt;Issue:41 Filter milestones in milestone group edit page&lt;/li&gt;
+&lt;li&gt;Fix 'NaN' velocity rendering errors&lt;/li&gt;
+&lt;/ul&gt;
+
+
+</description>
+
+      <enclosure url="https://agile-releases.s3.amazonaws.com/agile-2.0-beta-4.tar.gz" length="21460464" type="application/octet-stream"/>
     </item>
     
 
