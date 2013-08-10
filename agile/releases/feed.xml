@@ -6,8 +6,8 @@
     <atom:link href="http://headsupdev.github.com/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Blog</description>
     <language>en-gb</language>
-    <pubDate>Tue, 23 Apr 2013 13:53:38 +0100</pubDate>
-    <lastBuildDate>Tue, 23 Apr 2013 13:53:38 +0100</lastBuildDate>
+    <pubDate>Sat, 10 Aug 2013 23:38:05 +0100</pubDate>
+    <lastBuildDate>Sat, 10 Aug 2013 23:38:05 +0100</lastBuildDate>
 
     
     <item>
@@ -197,6 +197,41 @@ Many bugs have also been fixed, including:&lt;/p&gt;
 </description>
 
       <enclosure url="https://agile-releases.s3.amazonaws.com/agile-2.0-beta-4.tar.gz" length="21460464" type="application/octet-stream"/>
+    </item>
+    
+    <item>
+      <title>First 2.0 release candidate adds Gradle project support and more API endpoints</title>
+      <link>http://headsupdev.github.com/_releases/2013/07/09/2.0-rc1</link>
+      <pubDate>Tue, 09 Jul 2013 00:00:00 +0100</pubDate>
+      <author>andy@andywilliams.me (Andrew Williams)</author>
+      <guid>http://headsupdev.github.com/_releases/2013/07/09/2.0-rc1</guid>
+      <description>&lt;p&gt;The first release candidate for HeadsUp Agile 2.0 adds Grails project support in addition to adding the following API endpoints:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Issues&lt;/li&gt;
+&lt;li&gt;Milestones&lt;/li&gt;
+&lt;li&gt;UserDashboard&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition the following bugs have been addressed&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fix issue where time logged when resolving an issue was not being saved&lt;/li&gt;
+&lt;li&gt;Fix issue where eclipse android projects could not reference local libraries&lt;/li&gt;
+&lt;li&gt;Issue:57 Random ordering of durationworkeds if times match&lt;/li&gt;
+&lt;li&gt;Various DB optimisations&lt;/li&gt;
+&lt;li&gt;Issue:55 Include build config name in artefact upload events and build events&lt;/li&gt;
+&lt;li&gt;Correct encoding of JSON API (to UTF-8)&lt;/li&gt;
+&lt;li&gt;Correct rendering of file sizes to IEC standards&lt;/li&gt;
+&lt;li&gt;Fix an issue with the file &quot;updates&quot; page hanging&lt;/li&gt;
+&lt;li&gt;Fix a problem where projects would simetimes build more than once for a single changeset&lt;/li&gt;
+&lt;li&gt;Issue:60 Upgrade progress bar not updatingi&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please report any issues you have with this release so we can address them before the launch of 2.0&lt;/p&gt;
+
+</description>
+
+      <enclosure url="https://agile-releases.s3.amazonaws.com/agile-2.0-rc1.tar.gz" length="28664930" type="application/octet-stream"/>
     </item>
     
 
