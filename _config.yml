@@ -4,6 +4,7 @@ permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rbenv-version", "README.md", "Rakefile"]
 auto: true
+lsi: false
 pygments: true
 
 # Themes are encouraged to use these universal variables 
