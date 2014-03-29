@@ -9,10 +9,11 @@ module Jekyll
     # dir - The String relative path of the directory to read.
     #
     # Returns nothing.
-    def read_releases(site, dir = '_releases')
+    def read_releases(site, dir = '_releases', group = 'releases')
       base = File.join(site.source, dir, '_posts')
       return unless File.exists?(base)
       entries = Dir.chdir(base) { Dir['**/*'] }
+      site.config[group] = []
 
       # first pass processes, but does not yet render post content
       entries.each do |f|
@@ -23,20 +24,20 @@ module Jekyll
           $stdout.puts "#{e.message}"
         end
 
-        site.config['releases'] << post
+        site.config[group] << post
       end
 
-      site.config['releases'].sort!
+      site.config[group].sort!
 
       # limit the posts if :limit_posts option is set
 #      if limit_posts
-#        limit = site.config['releases'].length < limit_posts ? sites.config['releases'].length : limit_posts
-#        site.config['releases'] = site.config['releases'][-limit, limit]
+#        limit = site.config[group].length < limit_posts ? sites.config[group].length : limit_posts
+#        site.config[group] = site.config[tye][-limit, limit]
 #      end
     end
 
     def generate(site)
-      site.config['releases'] = []
+      self.read_releases(site, '_betareleases', 'betareleases')
       self.read_releases(site)
     end
   end
