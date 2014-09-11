@@ -6,8 +6,8 @@
     <atom:link href="http://headsupdev.github.com/agile/releases/beta/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Beta Releases</description>
     <language>en-gb</language>
-    <pubDate>Sat, 29 Mar 2014 17:05:53 +0000</pubDate>
-    <lastBuildDate>Sat, 29 Mar 2014 17:05:53 +0000</lastBuildDate>
+    <pubDate>Thu, 11 Sep 2014 21:52:26 +0100</pubDate>
+    <lastBuildDate>Thu, 11 Sep 2014 21:52:26 +0100</lastBuildDate>
 
     
     <item>
@@ -16,7 +16,7 @@
       <pubDate>Wed, 06 Jun 2012 00:00:00 +0100</pubDate>
       <author>andy@andywilliams.me (Andrew Williams)</author>
       <guid>http://headsupdev.github.com/_betareleases/2012/06/06/2.0-alpha-3</guid>
-      <description>&lt;p&gt;HeadsUp Agile's first open source release brings all the tools of Software Engineering and Project Management to all your team members in one easy to use web based application.
+      <description>&lt;p&gt;HeadsUp Agile&#39;s first open source release brings all the tools of Software Engineering and Project Management to all your team members in one easy to use web based application.
 The HeadsUp Agile system runs on any Unix OS and monitors your source control for code and project metadata.
 Combining change monitoring, task tracking and progress analytics your development progress will be clearer and faster than ever before&lt;/p&gt;
 
@@ -48,7 +48,7 @@ Combining change monitoring, task tracking and progress analytics your developme
       <description>&lt;p&gt;2.0-alpha-4 introduces full Windows support to HeadsUp Agile.&lt;br /&gt;
 Released ahead of beta-1 for some serious testing we hope that support for Windows will prove popular&lt;/p&gt;
 
-&lt;p&gt;Also in this release are changes that will help the migration to beta-1 using GitHub's infrastructure.&lt;/p&gt;
+&lt;p&gt;Also in this release are changes that will help the migration to beta-1 using GitHub&#39;s infrastructure.&lt;/p&gt;
 
 </description>
 
@@ -143,7 +143,7 @@ Most notable are the inclusion of android lint reports, milestone groups and a q
       <author>andy@andywilliams.me (Andrew Williams)</author>
       <guid>http://headsupdev.github.com/_betareleases/2013/03/03/2.0-beta-3</guid>
       <description>&lt;p&gt;2.0-beta-3 brings a long list of tweaks to the UI along with great new support for extended build agents and fixes to authentication.&lt;br /&gt;
-It also deprecated the old XML feed based API and introduced a new JSON based REST API in it's place.&lt;/p&gt;
+It also deprecated the old XML feed based API and introduced a new JSON based REST API in it&#39;s place.&lt;/p&gt;
 
 &lt;p&gt;A list of the other main changes are as follows:&lt;/p&gt;
 &lt;ul&gt;
@@ -156,7 +156,7 @@ It also deprecated the old XML feed based API and introduced a new JSON based RE
 &lt;li&gt;Improved UI layout on mobile devices&lt;/li&gt;
 &lt;li&gt;New JSON API to replace the deprecated XML feeds&lt;/li&gt;
 
-&lt;li&gt;Fixes to the authentication handling for artifact downloads and 'remember me' settings&lt;/li&gt;
+&lt;li&gt;Fixes to the authentication handling for artifact downloads and &#39;remember me&#39; settings&lt;/li&gt;
 &lt;li&gt;Fixed issues with notification handling&lt;/li&gt;
 &lt;li&gt;Fixed issues with Eclipse builds&lt;/li&gt;
 &lt;/ul&gt;
@@ -173,14 +173,14 @@ It also deprecated the old XML feed based API and introduced a new JSON based RE
       <pubDate>Tue, 23 Apr 2013 00:00:00 +0100</pubDate>
       <author>andy@andywilliams.me (Andrew Williams)</author>
       <guid>http://headsupdev.github.com/_betareleases/2013/04/23/2.0-beta-4</guid>
-      <description>&lt;p&gt;Building on the third beta's interface improvements 2.0-beta-4 completes the interface changes for 2.0 release by adding the requested filters and a new grouped activity page.&lt;br /&gt;
+      <description>&lt;p&gt;Building on the third beta&#39;s interface improvements 2.0-beta-4 completes the interface changes for 2.0 release by adding the requested filters and a new grouped activity page.&lt;br /&gt;
 Many bugs have also been fixed, including:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Hide email and telephone details from anonymous views&lt;/li&gt;
 &lt;li&gt;Improve maven build ordering&lt;/li&gt;
 &lt;li&gt;Add &quot;never&quot; option to build schedules&lt;/li&gt;
-&lt;li&gt;Don't forget the project when displaying an error page&lt;/li&gt;
+&lt;li&gt;Don&#39;t forget the project when displaying an error page&lt;/li&gt;
 
 &lt;li&gt;Fixed marked up text to render URLs as links&lt;/li&gt;
 &lt;li&gt;Fix some issues with memory constraints when updating&lt;/li&gt;
@@ -190,7 +190,7 @@ Many bugs have also been fixed, including:&lt;/p&gt;
 &lt;li&gt;Fix issue with hour remaining calculations and milestone exports&lt;/li&gt;
 &lt;li&gt;Issue:38 Attach comments to attachments when adding a file&lt;/li&gt;
 &lt;li&gt;Issue:41 Filter milestones in milestone group edit page&lt;/li&gt;
-&lt;li&gt;Fix 'NaN' velocity rendering errors&lt;/li&gt;
+&lt;li&gt;Fix &#39;NaN&#39; velocity rendering errors&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -242,7 +242,7 @@ Many bugs have also been fixed, including:&lt;/p&gt;
       <guid>http://headsupdev.github.com/_betareleases/2013/11/21/2.0-rc2</guid>
       <description>&lt;p&gt;The second release candidate for HeadsUp Agile 2.0 focuses on bug fixes but also adds the following features in preparation of the 2.0 release:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Move the &quot;begin&quot; issue page to a button so it's optional&lt;/li&gt;
+&lt;li&gt;Move the &quot;begin&quot; issue page to a button so it&#39;s optional&lt;/li&gt;
 &lt;li&gt;Change ordering of page titles to view real content on browser tabs&lt;/li&gt;
 &lt;li&gt;Add CocoaPods info to XCode projects - fixes issue:44&lt;/li&gt;
 &lt;li&gt;Add a permission denied page rather than always rendering a login screen&lt;/li&gt;
@@ -255,7 +255,7 @@ Many bugs have also been fixed, including:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Fix issue:64 where progressing an issue can appear to alter the time remaining incorrectly&lt;/li&gt;
-&lt;li&gt;Fix issue:62 - don't reset the platform in an xcode project unless the info file is being parsed&lt;/li&gt;
+&lt;li&gt;Fix issue:62 - don&#39;t reset the platform in an xcode project unless the info file is being parsed&lt;/li&gt;
 &lt;li&gt;Fix issue:agile-app-issues:1 autocomplete issue titles when creating relationships&lt;/li&gt;
 &lt;li&gt;Fix some velocity calculations&lt;/li&gt;
 &lt;li&gt;Fix issue where restricted users could not edit their own details&lt;/li&gt;
@@ -296,6 +296,40 @@ Many bugs have also been fixed, including:&lt;/p&gt;
 </description>
 
       <enclosure url="https://agile-releases.s3.amazonaws.com/agile-2.0-rc3.tar.gz" length="28690490" type="application/octet-stream"/>
+    </item>
+    
+    <item>
+      <title>2.1 beta1 with issue and milestone workflow enhancements and UI enhancements</title>
+      <link>http://headsupdev.github.com/_betareleases/2014/09/11/2.1-beta1</link>
+      <pubDate>Thu, 11 Sep 2014 00:00:00 +0100</pubDate>
+      <author>andy@andywilliams.me (Andrew Williams)</author>
+      <guid>http://headsupdev.github.com/_betareleases/2014/09/11/2.1-beta1</guid>
+      <description>&lt;p&gt;The first public testing release of the 2.1 release introduces various new features as well as bug fixing from 2.0.1. The full list of changes is as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add multiple attachments in one submission&lt;/li&gt;
+&lt;li&gt;Allow editing of comments and time worked&lt;/li&gt;
+&lt;li&gt;Allow deleting of comments, attachments and time worked&lt;/li&gt;
+&lt;li&gt;Add a HipChat notifier&lt;/li&gt;
+&lt;li&gt;Add quick add issue and milestone rows to the listing tables&lt;/li&gt;
+&lt;li&gt;Add select all and select none buttons to filters&lt;/li&gt;
+&lt;li&gt;Support setting the group a milestone is in directly&lt;/li&gt;
+&lt;li&gt;Don&#39;t automatically watch a new issue unless the user chooses to&lt;/li&gt;
+&lt;li&gt;Add issue summary to all issue page titles&lt;/li&gt;
+&lt;li&gt;Disable submit buttons once pressed to avoid double submissions&lt;/li&gt;
+
+&lt;li&gt;For Xcode builds append appropriate -destination parameter when testing on simulator&lt;/li&gt;
+&lt;li&gt;Fix Xcodebuild for latest CocoaPods&lt;/li&gt;
+&lt;li&gt;Fix icon paths for the build status API&lt;/li&gt;
+&lt;li&gt;Ensure milestones and groups have a valid associated time period before being graphed.&lt;/li&gt;
+&lt;li&gt;Fix an issue where the dueDate calculations of a milestoneGroup could crash the edit milestone page&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please report any issues you encounter and let us know if there are further ehancements you would like to see with these new features.&lt;/p&gt;
+
+</description>
+
+      <enclosure url="https://agile-releases.s3.amazonaws.com/agile-2.1-beta1.tar.gz" length="29858705" type="application/octet-stream"/>
     </item>
     
 
