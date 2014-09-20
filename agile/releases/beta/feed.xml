@@ -6,8 +6,8 @@
     <atom:link href="http://headsupdev.github.com/agile/releases/beta/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Beta Releases</description>
     <language>en-gb</language>
-    <pubDate>Thu, 11 Sep 2014 21:52:26 +0100</pubDate>
-    <lastBuildDate>Thu, 11 Sep 2014 21:52:26 +0100</lastBuildDate>
+    <pubDate>Sun, 21 Sep 2014 00:19:42 +0100</pubDate>
+    <lastBuildDate>Sun, 21 Sep 2014 00:19:42 +0100</lastBuildDate>
 
     
     <item>
@@ -330,6 +330,32 @@ Many bugs have also been fixed, including:&lt;/p&gt;
 </description>
 
       <enclosure url="https://agile-releases.s3.amazonaws.com/agile-2.1-beta1.tar.gz" length="29858705" type="application/octet-stream"/>
+    </item>
+    
+    <item>
+      <title>2.1 beta2 improves build and notifier configurations</title>
+      <link>http://headsupdev.github.com/_betareleases/2014/09/21/2.1-beta2</link>
+      <pubDate>Sun, 21 Sep 2014 00:00:00 +0100</pubDate>
+      <author>andy@andywilliams.me (Andrew Williams)</author>
+      <guid>http://headsupdev.github.com/_betareleases/2014/09/21/2.1-beta2</guid>
+      <description>&lt;p&gt;Beta2 for the 2.1 release follows from our beta1 with some important fixes to build and notifier configurations as well as some bug fixes in the Gradle builder.
+The full list of changes is as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add ability to disable any build configuration&lt;/li&gt;
+&lt;li&gt;Support gradle wrapper execution for gradle projects including it&lt;/li&gt;
+&lt;li&gt;Allow notifier configurations to ignore certain events&lt;/li&gt;
+
+&lt;li&gt;Fix importing of child modules in large maven projects&lt;/li&gt;
+&lt;li&gt;Resolve issue with exceptions adding issues with very long summaries - Issue:104&lt;/li&gt;
+&lt;li&gt;Fix issue where search results could crash if matched keywords were substrings of others&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please report any issues you encounter and let us know if there are further ehancements you would like to see with these new features.&lt;/p&gt;
+
+</description>
+
+      <enclosure url="https://agile-releases.s3.amazonaws.com/agile-2.1-beta2.tar.gz" length="29874908" type="application/octet-stream"/>
     </item>
     
 
