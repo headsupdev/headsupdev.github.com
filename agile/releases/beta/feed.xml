@@ -6,8 +6,8 @@
     <atom:link href="http://headsupdev.github.com/agile/releases/beta/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Beta Releases</description>
     <language>en-gb</language>
-    <pubDate>Wed, 31 Dec 2014 12:10:47 +0000</pubDate>
-    <lastBuildDate>Wed, 31 Dec 2014 12:10:47 +0000</lastBuildDate>
+    <pubDate>Wed, 31 Dec 2014 16:29:43 +0000</pubDate>
+    <lastBuildDate>Wed, 31 Dec 2014 16:29:43 +0000</lastBuildDate>
 
     
     <item>
@@ -381,7 +381,7 @@ The full list of changes is as follows:&lt;/p&gt;
 
 </description>
 
-      <enclosure url="https://agile-releases.s3.amazonaws.com/agile-2.1-beta3.tar.gz" length="31739189" type="application/octet-stream"/>
+      <enclosure url="https://agile-releases.s3.amazonaws.com/agile-2.1-beta3.tar.gz" length="31739257" type="application/octet-stream"/>
     </item>
     
 
