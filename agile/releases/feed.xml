@@ -6,8 +6,8 @@
     <atom:link href="http://headsupdev.github.com/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Releases</description>
     <language>en-gb</language>
-    <pubDate>Sun, 30 Mar 2014 22:32:50 +0100</pubDate>
-    <lastBuildDate>Sun, 30 Mar 2014 22:32:50 +0100</lastBuildDate>
+    <pubDate>Fri, 21 Aug 2015 21:28:48 +0100</pubDate>
+    <lastBuildDate>Fri, 21 Aug 2015 21:28:48 +0100</lastBuildDate>
 
     
     <item>
@@ -35,11 +35,35 @@ It contains many exciting new features from the 1.0 release including:&lt;/p&gt;
 
 &lt;/ul&gt;
 
-&lt;p&gt;Plus many hundreds of other enhancements and fixes - we're sure you will enjoy the great new 2.0 release.&lt;/p&gt;
+&lt;p&gt;Plus many hundreds of other enhancements and fixes - we&#39;re sure you will enjoy the great new 2.0 release.&lt;/p&gt;
 
 </description>
 
       <enclosure url="https://agile-releases.s3.amazonaws.com/agile-2.0.tar.gz" length="28691292" type="application/octet-stream"/>
+    </item>
+    
+    <item>
+      <title>HeadsUp Agile 2.1 update released</title>
+      <link>http://headsupdev.github.com/_releases/2015/08/21/2.1</link>
+      <pubDate>Fri, 21 Aug 2015 00:00:00 +0100</pubDate>
+      <author>andy@andywilliams.me (Andrew Williams)</author>
+      <guid>http://headsupdev.github.com/_releases/2015/08/21/2.1</guid>
+      <description>&lt;p&gt;2.1 is a bug fix release to 2.0 which fixes reported crashes, improves error handling
+and addresses some overall stability issues. we recommend all users install this update.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Improved error handling of URL parsing&lt;/li&gt;
+&lt;li&gt;Add robots.txt to block web spiders&lt;/li&gt;
+
+&lt;li&gt;Fix crash that could occur when issue relationships are scrolled off screen&lt;/li&gt;
+&lt;li&gt;Fix issue where default Gradle build task could not be invoked&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are many other small changes to the overall stability of the system.&lt;/p&gt;
+
+</description>
+
+      <enclosure url="https://agile-releases.s3.amazonaws.com/agile-2.1.tar.gz" length="31737425" type="application/octet-stream"/>
     </item>
     
 
