@@ -6,8 +6,8 @@
     <atom:link href="http://headsupdev.github.com/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Releases</description>
     <language>en-gb</language>
-    <pubDate>Fri, 21 Aug 2015 21:28:48 +0100</pubDate>
-    <lastBuildDate>Fri, 21 Aug 2015 21:28:48 +0100</lastBuildDate>
+    <pubDate>Mon, 07 Sep 2015 13:31:07 +0100</pubDate>
+    <lastBuildDate>Mon, 07 Sep 2015 13:31:07 +0100</lastBuildDate>
 
     
     <item>
@@ -48,22 +48,29 @@ It contains many exciting new features from the 1.0 release including:&lt;/p&gt;
       <pubDate>Fri, 21 Aug 2015 00:00:00 +0100</pubDate>
       <author>andy@andywilliams.me (Andrew Williams)</author>
       <guid>http://headsupdev.github.com/_releases/2015/08/21/2.1</guid>
-      <description>&lt;p&gt;2.1 is a bug fix release to 2.0 which fixes reported crashes, improves error handling
-and addresses some overall stability issues. we recommend all users install this update.&lt;/p&gt;
+      <description>&lt;p&gt;2.1 is an incremental feature and bug fix release to 2.0 which adds a couple of new reatures,
+fixes reported crashes, improves error handling and addresses some overall stability issues. we recommend all users install this update.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Improved error handling of URL parsing&lt;/li&gt;
 &lt;li&gt;Add robots.txt to block web spiders&lt;/li&gt;
+&lt;li&gt;Correctly handle disabled projects&lt;/li&gt;
+&lt;li&gt;Add gravatar support&lt;/li&gt;
+&lt;li&gt;Add ability to disable builds&lt;/li&gt;
+&lt;li&gt;Enhanced issue pages for multiple attachments and editing comments etc&lt;/li&gt;
+&lt;li&gt;Supporting latest Xcodebuild&lt;/li&gt; 
 
 &lt;li&gt;Fix crash that could occur when issue relationships are scrolled off screen&lt;/li&gt;
 &lt;li&gt;Fix issue where default Gradle build task could not be invoked&lt;/li&gt;
+&lt;li&gt;Fix importing of child modules in large maven projects&lt;/li&gt;
+&lt;li&gt;Ensure milestones and groups have a valid associated time period before being graphed.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;There are many other small changes to the overall stability of the system.&lt;/p&gt;
 
 </description>
 
-      <enclosure url="https://agile-releases.s3.amazonaws.com/agile-2.1.tar.gz" length="31737425" type="application/octet-stream"/>
+      <enclosure url="https://agile-releases.s3.amazonaws.com/agile-2.1.tar.gz" length="31740836" type="application/octet-stream"/>
     </item>
     
 
