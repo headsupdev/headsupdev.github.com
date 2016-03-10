@@ -1,78 +1,29 @@
+---
+layout: null
+---
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HeadsUpDev Open</title>
-    <link>http://headsupdev.github.com</link>
-    <atom:link href="http://headsupdev.github.com/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
+    <link>{{ site.production_url }}</link>
+    <atom:link href="{{ site.production_url }}/agile/releases/feed.xml" rel="self" type="application/rss+xml" />
     <description>HeadsUp Development Open Source Releases</description>
     <language>en-gb</language>
-    <pubDate>Mon, 07 Sep 2015 13:33:46 +0100</pubDate>
-    <lastBuildDate>Mon, 07 Sep 2015 13:33:46 +0100</lastBuildDate>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
 
-    
+    {% for release in site.releases %}
     <item>
-      <title>HeadsUp Agile 2.0 released</title>
-      <link>http://headsupdev.github.com/_releases/2014/03/29/2.0</link>
-      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
+      <title>{{ release.title }}</title>
+      <link>http://headsupdev.github.com{{ release.url }}</link>
+      <pubDate>{{ release.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
       <author>andy@andywilliams.me (Andrew Williams)</author>
-      <guid>http://headsupdev.github.com/_releases/2014/03/29/2.0</guid>
-      <description>&lt;p&gt;2.0 Release is the first major open source release of HeadsUp Agile.
-It contains many exciting new features from the 1.0 release including:&lt;/p&gt;
+      <guid>http://headsupdev.github.com{{ release.id }}</guid>
+      <description>{{ release.content | xml_escape }}</description>
 
-&lt;ul&gt;
-&lt;li&gt;A redesigned, slick user interface with mobile optimisation&lt;/li&gt;
-&lt;li&gt;User dashboard&lt;/li&gt;
-&lt;li&gt;Burndown charts and velocity calculations&lt;/li&gt;
-&lt;li&gt;Milestone Groups&lt;/li&gt;
-&lt;li&gt;Support for new build systems such as Gradle and Xcode 5 projects and workspaces&lt;/li&gt;
-&lt;li&gt;Grouping of projects based on age&lt;/li&gt;
-&lt;li&gt;A REST based API&lt;/li&gt;
-&lt;li&gt;Quick jump search field&lt;/li&gt;
-&lt;li&gt;Generate documentation with doxygen&lt;/li&gt;
-&lt;li&gt;Support for scan-build static analysis and lint checking&lt;/li&gt;
-&lt;li&gt;Added windows support&lt;/li&gt;
-&lt;li&gt;Inline display of issue attachments with syntax highlighting&lt;/li&gt;
-
-&lt;/ul&gt;
-
-&lt;p&gt;Plus many hundreds of other enhancements and fixes - we&#39;re sure you will enjoy the great new 2.0 release.&lt;/p&gt;
-
-</description>
-
-      <enclosure url="https://agile-releases.s3.amazonaws.com/agile-2.0.tar.gz" length="28691292" type="application/octet-stream"/>
+      <enclosure url="{{ release.link }}" length="{{ release.size }}" type="application/octet-stream"/>
     </item>
-    
-    <item>
-      <title>HeadsUp Agile 2.1 update released</title>
-      <link>http://headsupdev.github.com/_releases/2015/08/21/2.1</link>
-      <pubDate>Fri, 21 Aug 2015 00:00:00 +0100</pubDate>
-      <author>andy@andywilliams.me (Andrew Williams)</author>
-      <guid>http://headsupdev.github.com/_releases/2015/08/21/2.1</guid>
-      <description>&lt;p&gt;2.1 is an incremental feature and bug fix release to 2.0 which adds a couple of new features,
-fixes reported crashes, improves error handling and addresses some overall stability issues. we recommend all users install this update.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Improved error handling of URL parsing&lt;/li&gt;
-&lt;li&gt;Add robots.txt to block web spiders&lt;/li&gt;
-&lt;li&gt;Correctly handle disabled projects&lt;/li&gt;
-&lt;li&gt;Add gravatar support&lt;/li&gt;
-&lt;li&gt;Add ability to disable builds&lt;/li&gt;
-&lt;li&gt;Enhanced issue pages for multiple attachments and editing comments etc&lt;/li&gt;
-&lt;li&gt;Supporting latest Xcodebuild&lt;/li&gt; 
-
-&lt;li&gt;Fix crash that could occur when issue relationships are scrolled off screen&lt;/li&gt;
-&lt;li&gt;Fix issue where default Gradle build task could not be invoked&lt;/li&gt;
-&lt;li&gt;Fix importing of child modules in large maven projects&lt;/li&gt;
-&lt;li&gt;Ensure milestones and groups have a valid associated time period before being graphed.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There are many other small changes to the overall stability of the system.&lt;/p&gt;
-
-</description>
-
-      <enclosure url="https://agile-releases.s3.amazonaws.com/agile-2.1.tar.gz" length="31740836" type="application/octet-stream"/>
-    </item>
-    
+    {% endfor %}
 
   </channel> 
 </rss>
